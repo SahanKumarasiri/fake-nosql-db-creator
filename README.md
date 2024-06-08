@@ -49,7 +49,7 @@ Replace `your-database-name` with the name of your MongoDB database.
 Run the following command to execute the seeding script:
 
 ```sh
-node seed.js
+node seeder.js
 ```
 
 This will delete any existing data in the `users`, `posts`, `comments`, and `categories` collections and insert new sample data.
